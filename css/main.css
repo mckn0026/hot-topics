@@ -1,0 +1,50 @@
+/*!
+ * Start Bootstrap - Heroic Features (https://startbootstrap.com/template-overviews/heroic-features)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-heroic-features/blob/master/LICENSE)
+ */
+
+body 
+{
+  padding-top: 54px;
+    font-size: 1.25em;
+}
+
+i
+{
+    padding: 10px;
+    margin-right: 10px;
+    background: linear-gradient(to bottom right, red, yellow);
+    border-radius: 50px;
+}
+.media
+{
+    padding: 2em;
+}
+.card
+{
+    margin-bottom: 50px;
+}
+
+@media (min-width < 35em) 
+{
+  body 
+    {
+    padding-top: 56px;
+        line-height: 1.4em;
+        font-size: 0.75em;
+  }
+    img
+    {
+        background-image: url("http://placehold.it/300x300");
+    }
+}
+@media (min-width > 35em and max-width < 80em)
+{
+    body
+    {
+        line-height: 1.6em;
+        font-size: 1em;
+    }
+}
+
